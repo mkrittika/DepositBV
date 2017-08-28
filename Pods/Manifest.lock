@@ -1,0 +1,37 @@
+PODS:
+  - Alamofire (4.0.0)
+  - SwiftHTTP (2.0.0)
+  - SwiftyJSON (2.3.2)
+  - Toucan (0.5.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.0)
+  - SwiftHTTP
+  - SwiftyJSON (from `https://github.com/BaiduHiDeviOS/SwiftyJSON.git`, branch `swift3`)
+  - Toucan (from `https://github.com/kean/Toucan.git`, branch `swift3`)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :branch: swift3
+    :git: https://github.com/BaiduHiDeviOS/SwiftyJSON.git
+  Toucan:
+    :branch: swift3
+    :git: https://github.com/kean/Toucan.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: de5dc3b1b421805769590d331178551bbb0e5733
+    :git: https://github.com/BaiduHiDeviOS/SwiftyJSON.git
+  Toucan:
+    :commit: cc66a45b74d37bb556b1007b3c175ad5fd56834c
+    :git: https://github.com/kean/Toucan.git
+
+SPEC CHECKSUMS:
+  Alamofire: fef59f00388f267e52d9b432aa5d93dc97190f14
+  SwiftHTTP: 55a6f10e9952819ff728a3d9d1fa52ba3d266dba
+  SwiftyJSON: 6118fb49d7519c4d31a0c1f3d5af936e9047b556
+  Toucan: 0519c341148252ae114c5a657d2a85bb9ada9e40
+
+PODFILE CHECKSUM: 8d6066f3df1968f793dbbc4f846c755af202888c
+
+COCOAPODS: 1.0.0

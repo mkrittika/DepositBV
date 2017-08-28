@@ -1,0 +1,8 @@
+{
+	"upstream-server": "http://localhost:8888",
+	"resources": {
+		"GET-api/login": {"category": "User"},
+		"GET-api/register": {"category": "api"},
+		"POST-user": {"category": "User"}
+	}
+}

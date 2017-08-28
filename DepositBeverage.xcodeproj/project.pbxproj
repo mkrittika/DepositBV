@@ -1,0 +1,909 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52130BB71D9683DA00442D58 /* inputDepositDataVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52130BB61D9683DA00442D58 /* inputDepositDataVC.swift */; };
+		5218C9231D8FDBBC007C893A /* QRcodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5218C9221D8FDBBC007C893A /* QRcodeController.swift */; };
+		55922D5CB33CE11C8D8F5320 /* Pods_DepositBeverageTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D99F9FA3D25C1B55D40A33FE /* Pods_DepositBeverageTests.framework */; };
+		C2543F287B97CF88A9AF1B05 /* Pods_DepositBeverageUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F8BF90442803F378DD805746 /* Pods_DepositBeverageUITests.framework */; };
+		EE1B13051DA56BBF00DE988D /* utillityFunctionTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1B13041DA56BBF00DE988D /* utillityFunctionTest.swift */; };
+		EE2E69001D9A767800EFBB84 /* WithdrawVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE2E68FF1D9A767800EFBB84 /* WithdrawVCTests.swift */; };
+		EE3B55B31D72D85200EA1860 /* utilityFuncs.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE3B55B21D72D85200EA1860 /* utilityFuncs.swift */; };
+		EE41D1311D6AF0DE00011EC5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41D1301D6AF0DE00011EC5 /* AppDelegate.swift */; };
+		EE41D1361D6AF0DE00011EC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE41D1341D6AF0DE00011EC5 /* Main.storyboard */; };
+		EE41D1381D6AF0DE00011EC5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE41D1371D6AF0DE00011EC5 /* Assets.xcassets */; };
+		EE41D13B1D6AF0DE00011EC5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE41D1391D6AF0DE00011EC5 /* LaunchScreen.storyboard */; };
+		EE41D1461D6AF0DE00011EC5 /* DepositBeverageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41D1451D6AF0DE00011EC5 /* DepositBeverageTests.swift */; };
+		EE41D1511D6AF0DE00011EC5 /* DepositBeverageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41D1501D6AF0DE00011EC5 /* DepositBeverageUITests.swift */; };
+		EE41D1661D6AF2E900011EC5 /* apiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41D15E1D6AF2E900011EC5 /* apiRequest.swift */; };
+		EE41D1671D6AF2E900011EC5 /* EditProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41D15F1D6AF2E900011EC5 /* EditProfileVC.swift */; };
+		EE41D1681D6AF2E900011EC5 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41D1601D6AF2E900011EC5 /* HomeVC.swift */; };
+		EE41D1691D6AF2E900011EC5 /* InfoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41D1611D6AF2E900011EC5 /* InfoVC.swift */; };
+		EE41D16A1D6AF2E900011EC5 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41D1621D6AF2E900011EC5 /* LoginVC.swift */; };
+		EE41D16B1D6AF2E900011EC5 /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41D1631D6AF2E900011EC5 /* ProfileVC.swift */; };
+		EE41D16C1D6AF2E900011EC5 /* RegisterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41D1641D6AF2E900011EC5 /* RegisterVC.swift */; };
+		EE41D16D1D6AF2E900011EC5 /* splashScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE41D1651D6AF2E900011EC5 /* splashScreenViewController.swift */; };
+		EECDC4B81D8154D300DB567A /* DepositVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = EECDC4B71D8154D300DB567A /* DepositVC.swift */; };
+		EEE95C021D9A3823004F7F38 /* DepositVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE95C011D9A3823004F7F38 /* DepositVCTests.swift */; };
+		EEF91CA41D7D7ED600DE66E2 /* placeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF91CA21D7D7ED600DE66E2 /* placeTableViewCell.swift */; };
+		EEF91CA51D7D7ED600DE66E2 /* placeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EEF91CA31D7D7ED600DE66E2 /* placeTableViewCell.xib */; };
+		FECA86C74CB990D24A0BEA83 /* Pods_DepositBeverage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B4D2A2C12B0548BA58CBFE3 /* Pods_DepositBeverage.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE41D1421D6AF0DE00011EC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE41D1251D6AF0DE00011EC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE41D12C1D6AF0DE00011EC5;
+			remoteInfo = DepositBeverage;
+		};
+		EE41D14D1D6AF0DE00011EC5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE41D1251D6AF0DE00011EC5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE41D12C1D6AF0DE00011EC5;
+			remoteInfo = DepositBeverage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C0A3675DA07A4CB18DA01ED /* Pods-DepositBeverageTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DepositBeverageTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DepositBeverageTests/Pods-DepositBeverageTests.release.xcconfig"; sourceTree = "<group>"; };
+		0EDB57E2FE87D956326AFB19 /* Pods-DepositBeverageUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DepositBeverageUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DepositBeverageUITests/Pods-DepositBeverageUITests.release.xcconfig"; sourceTree = "<group>"; };
+		52130BB61D9683DA00442D58 /* inputDepositDataVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = inputDepositDataVC.swift; sourceTree = "<group>"; };
+		5218C9221D8FDBBC007C893A /* QRcodeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRcodeController.swift; sourceTree = "<group>"; };
+		7D53E221F6C374A9AC4C0F67 /* Pods-DepositBeverage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DepositBeverage.release.xcconfig"; path = "Pods/Target Support Files/Pods-DepositBeverage/Pods-DepositBeverage.release.xcconfig"; sourceTree = "<group>"; };
+		8B4D2A2C12B0548BA58CBFE3 /* Pods_DepositBeverage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DepositBeverage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0ED9F833B2048B8147DDDF /* Pods-DepositBeverage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DepositBeverage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DepositBeverage/Pods-DepositBeverage.debug.xcconfig"; sourceTree = "<group>"; };
+		C1902849160DD95AAE7C39DF /* Pods-DepositBeverageTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DepositBeverageTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DepositBeverageTests/Pods-DepositBeverageTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CF3AC6E3DF19D246481F14C0 /* Pods-DepositBeverageUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DepositBeverageUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DepositBeverageUITests/Pods-DepositBeverageUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D99F9FA3D25C1B55D40A33FE /* Pods_DepositBeverageTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DepositBeverageTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE1B13041DA56BBF00DE988D /* utillityFunctionTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utillityFunctionTest.swift; sourceTree = "<group>"; };
+		EE2E68FF1D9A767800EFBB84 /* WithdrawVCTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WithdrawVCTests.swift; sourceTree = "<group>"; };
+		EE3B55B21D72D85200EA1860 /* utilityFuncs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = utilityFuncs.swift; sourceTree = "<group>"; };
+		EE41D12D1D6AF0DE00011EC5 /* DepositBeverage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DepositBeverage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE41D1301D6AF0DE00011EC5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE41D1351D6AF0DE00011EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE41D1371D6AF0DE00011EC5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE41D13A1D6AF0DE00011EC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE41D13C1D6AF0DE00011EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE41D1411D6AF0DE00011EC5 /* DepositBeverageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DepositBeverageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE41D1451D6AF0DE00011EC5 /* DepositBeverageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositBeverageTests.swift; sourceTree = "<group>"; };
+		EE41D1471D6AF0DE00011EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE41D14C1D6AF0DE00011EC5 /* DepositBeverageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DepositBeverageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE41D1501D6AF0DE00011EC5 /* DepositBeverageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepositBeverageUITests.swift; sourceTree = "<group>"; };
+		EE41D1521D6AF0DE00011EC5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE41D15E1D6AF2E900011EC5 /* apiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = apiRequest.swift; sourceTree = "<group>"; };
+		EE41D15F1D6AF2E900011EC5 /* EditProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileVC.swift; sourceTree = "<group>"; };
+		EE41D1601D6AF2E900011EC5 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		EE41D1611D6AF2E900011EC5 /* InfoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoVC.swift; sourceTree = "<group>"; };
+		EE41D1621D6AF2E900011EC5 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		EE41D1631D6AF2E900011EC5 /* ProfileVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		EE41D1641D6AF2E900011EC5 /* RegisterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterVC.swift; sourceTree = "<group>"; };
+		EE41D1651D6AF2E900011EC5 /* splashScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = splashScreenViewController.swift; sourceTree = "<group>"; };
+		EECDC4B71D8154D300DB567A /* DepositVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepositVC.swift; sourceTree = "<group>"; };
+		EEE95C011D9A3823004F7F38 /* DepositVCTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepositVCTests.swift; sourceTree = "<group>"; };
+		EEF91CA21D7D7ED600DE66E2 /* placeTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = placeTableViewCell.swift; sourceTree = "<group>"; };
+		EEF91CA31D7D7ED600DE66E2 /* placeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = placeTableViewCell.xib; sourceTree = "<group>"; };
+		F8BF90442803F378DD805746 /* Pods_DepositBeverageUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DepositBeverageUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE41D12A1D6AF0DE00011EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FECA86C74CB990D24A0BEA83 /* Pods_DepositBeverage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE41D13E1D6AF0DE00011EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55922D5CB33CE11C8D8F5320 /* Pods_DepositBeverageTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE41D1491D6AF0DE00011EC5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2543F287B97CF88A9AF1B05 /* Pods_DepositBeverageUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0358E25896F7583ACE4271F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8B4D2A2C12B0548BA58CBFE3 /* Pods_DepositBeverage.framework */,
+				D99F9FA3D25C1B55D40A33FE /* Pods_DepositBeverageTests.framework */,
+				F8BF90442803F378DD805746 /* Pods_DepositBeverageUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		616A28967DA2F4EDA73D00FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8D0ED9F833B2048B8147DDDF /* Pods-DepositBeverage.debug.xcconfig */,
+				7D53E221F6C374A9AC4C0F67 /* Pods-DepositBeverage.release.xcconfig */,
+				C1902849160DD95AAE7C39DF /* Pods-DepositBeverageTests.debug.xcconfig */,
+				0C0A3675DA07A4CB18DA01ED /* Pods-DepositBeverageTests.release.xcconfig */,
+				CF3AC6E3DF19D246481F14C0 /* Pods-DepositBeverageUITests.debug.xcconfig */,
+				0EDB57E2FE87D956326AFB19 /* Pods-DepositBeverageUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE41D1241D6AF0DE00011EC5 = {
+			isa = PBXGroup;
+			children = (
+				EE41D12F1D6AF0DE00011EC5 /* DepositBeverage */,
+				EE41D1441D6AF0DE00011EC5 /* DepositBeverageTests */,
+				EE41D14F1D6AF0DE00011EC5 /* DepositBeverageUITests */,
+				EE41D12E1D6AF0DE00011EC5 /* Products */,
+				616A28967DA2F4EDA73D00FC /* Pods */,
+				0358E25896F7583ACE4271F0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE41D12E1D6AF0DE00011EC5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE41D12D1D6AF0DE00011EC5 /* DepositBeverage.app */,
+				EE41D1411D6AF0DE00011EC5 /* DepositBeverageTests.xctest */,
+				EE41D14C1D6AF0DE00011EC5 /* DepositBeverageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE41D12F1D6AF0DE00011EC5 /* DepositBeverage */ = {
+			isa = PBXGroup;
+			children = (
+				EE41D1301D6AF0DE00011EC5 /* AppDelegate.swift */,
+				EE41D16E1D6AF3C400011EC5 /* libs */,
+				EEF91CA11D7D766400DE66E2 /* Cells */,
+				EE41D1651D6AF2E900011EC5 /* splashScreenViewController.swift */,
+				EE41D1641D6AF2E900011EC5 /* RegisterVC.swift */,
+				EE41D1621D6AF2E900011EC5 /* LoginVC.swift */,
+				EECDC4B71D8154D300DB567A /* DepositVC.swift */,
+				EE41D1631D6AF2E900011EC5 /* ProfileVC.swift */,
+				EE41D15F1D6AF2E900011EC5 /* EditProfileVC.swift */,
+				52130BB61D9683DA00442D58 /* inputDepositDataVC.swift */,
+				EE41D1611D6AF2E900011EC5 /* InfoVC.swift */,
+				EE41D1601D6AF2E900011EC5 /* HomeVC.swift */,
+				EE41D1341D6AF0DE00011EC5 /* Main.storyboard */,
+				EE41D1371D6AF0DE00011EC5 /* Assets.xcassets */,
+				EE41D1391D6AF0DE00011EC5 /* LaunchScreen.storyboard */,
+				EE41D13C1D6AF0DE00011EC5 /* Info.plist */,
+			);
+			path = DepositBeverage;
+			sourceTree = "<group>";
+		};
+		EE41D1441D6AF0DE00011EC5 /* DepositBeverageTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE1B13041DA56BBF00DE988D /* utillityFunctionTest.swift */,
+				EE41D1451D6AF0DE00011EC5 /* DepositBeverageTests.swift */,
+				EEE95C011D9A3823004F7F38 /* DepositVCTests.swift */,
+				EE2E68FF1D9A767800EFBB84 /* WithdrawVCTests.swift */,
+				EE41D1471D6AF0DE00011EC5 /* Info.plist */,
+			);
+			path = DepositBeverageTests;
+			sourceTree = "<group>";
+		};
+		EE41D14F1D6AF0DE00011EC5 /* DepositBeverageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE41D1501D6AF0DE00011EC5 /* DepositBeverageUITests.swift */,
+				EE41D1521D6AF0DE00011EC5 /* Info.plist */,
+			);
+			path = DepositBeverageUITests;
+			sourceTree = "<group>";
+		};
+		EE41D16E1D6AF3C400011EC5 /* libs */ = {
+			isa = PBXGroup;
+			children = (
+				5218C9221D8FDBBC007C893A /* QRcodeController.swift */,
+				EE41D15E1D6AF2E900011EC5 /* apiRequest.swift */,
+				EE3B55B21D72D85200EA1860 /* utilityFuncs.swift */,
+			);
+			name = libs;
+			sourceTree = "<group>";
+		};
+		EEF91CA11D7D766400DE66E2 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				EEF91CA21D7D7ED600DE66E2 /* placeTableViewCell.swift */,
+				EEF91CA31D7D7ED600DE66E2 /* placeTableViewCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE41D12C1D6AF0DE00011EC5 /* DepositBeverage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE41D1551D6AF0DE00011EC5 /* Build configuration list for PBXNativeTarget "DepositBeverage" */;
+			buildPhases = (
+				C8942CA920B724474DEB62DF /* 📦 Check Pods Manifest.lock */,
+				6C0116C7DF60C33F90C14C21 /* [CP] Check Pods Manifest.lock */,
+				EE41D1291D6AF0DE00011EC5 /* Sources */,
+				EE41D12A1D6AF0DE00011EC5 /* Frameworks */,
+				EE41D12B1D6AF0DE00011EC5 /* Resources */,
+				3E940E5AD80F4AD81F9077FE /* [CP] Embed Pods Frameworks */,
+				B6BA5446E111D82A1969969D /* [CP] Copy Pods Resources */,
+				707649A5A9AC1712F77A2027 /* 📦 Embed Pods Frameworks */,
+				7064055DDFDEBD68EE76851D /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DepositBeverage;
+			productName = DepositBeverage;
+			productReference = EE41D12D1D6AF0DE00011EC5 /* DepositBeverage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE41D1401D6AF0DE00011EC5 /* DepositBeverageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE41D1581D6AF0DE00011EC5 /* Build configuration list for PBXNativeTarget "DepositBeverageTests" */;
+			buildPhases = (
+				209BA2E545EF9A2BF357B161 /* 📦 Check Pods Manifest.lock */,
+				B5558AAB5C653D0E1EC48D0D /* [CP] Check Pods Manifest.lock */,
+				EE41D13D1D6AF0DE00011EC5 /* Sources */,
+				EE41D13E1D6AF0DE00011EC5 /* Frameworks */,
+				EE41D13F1D6AF0DE00011EC5 /* Resources */,
+				3AB822D7DE0EC6D59C3E980B /* [CP] Embed Pods Frameworks */,
+				7634B072B52314545217F49D /* [CP] Copy Pods Resources */,
+				6E49E1202926BC7F5853F937 /* 📦 Embed Pods Frameworks */,
+				8034299127BABE0FC09FFDA8 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE41D1431D6AF0DE00011EC5 /* PBXTargetDependency */,
+			);
+			name = DepositBeverageTests;
+			productName = DepositBeverageTests;
+			productReference = EE41D1411D6AF0DE00011EC5 /* DepositBeverageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE41D14B1D6AF0DE00011EC5 /* DepositBeverageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE41D15B1D6AF0DE00011EC5 /* Build configuration list for PBXNativeTarget "DepositBeverageUITests" */;
+			buildPhases = (
+				E8667F0FA40659BF43FF78B5 /* 📦 Check Pods Manifest.lock */,
+				C4AE8BC8A33D424C94BFCF93 /* [CP] Check Pods Manifest.lock */,
+				EE41D1481D6AF0DE00011EC5 /* Sources */,
+				EE41D1491D6AF0DE00011EC5 /* Frameworks */,
+				EE41D14A1D6AF0DE00011EC5 /* Resources */,
+				2DC6F741C38CB811AFF8275A /* [CP] Copy Pods Resources */,
+				3E4F736010AB6CE9B8F11A9D /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE41D14E1D6AF0DE00011EC5 /* PBXTargetDependency */,
+			);
+			name = DepositBeverageUITests;
+			productName = DepositBeverageUITests;
+			productReference = EE41D14C1D6AF0DE00011EC5 /* DepositBeverageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE41D1251D6AF0DE00011EC5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = mintmint;
+				TargetAttributes = {
+					EE41D12C1D6AF0DE00011EC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					EE41D1401D6AF0DE00011EC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = EE41D12C1D6AF0DE00011EC5;
+					};
+					EE41D14B1D6AF0DE00011EC5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0800;
+						TestTargetID = EE41D12C1D6AF0DE00011EC5;
+					};
+				};
+			};
+			buildConfigurationList = EE41D1281D6AF0DE00011EC5 /* Build configuration list for PBXProject "DepositBeverage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE41D1241D6AF0DE00011EC5;
+			productRefGroup = EE41D12E1D6AF0DE00011EC5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE41D12C1D6AF0DE00011EC5 /* DepositBeverage */,
+				EE41D1401D6AF0DE00011EC5 /* DepositBeverageTests */,
+				EE41D14B1D6AF0DE00011EC5 /* DepositBeverageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE41D12B1D6AF0DE00011EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE41D13B1D6AF0DE00011EC5 /* LaunchScreen.storyboard in Resources */,
+				EE41D1381D6AF0DE00011EC5 /* Assets.xcassets in Resources */,
+				EE41D1361D6AF0DE00011EC5 /* Main.storyboard in Resources */,
+				EEF91CA51D7D7ED600DE66E2 /* placeTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE41D13F1D6AF0DE00011EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE41D14A1D6AF0DE00011EC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		209BA2E545EF9A2BF357B161 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2DC6F741C38CB811AFF8275A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DepositBeverageUITests/Pods-DepositBeverageUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3AB822D7DE0EC6D59C3E980B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DepositBeverageTests/Pods-DepositBeverageTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E4F736010AB6CE9B8F11A9D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DepositBeverageUITests/Pods-DepositBeverageUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E940E5AD80F4AD81F9077FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DepositBeverage/Pods-DepositBeverage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6C0116C7DF60C33F90C14C21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6E49E1202926BC7F5853F937 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DepositBeverageTests/Pods-DepositBeverageTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7064055DDFDEBD68EE76851D /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DepositBeverage/Pods-DepositBeverage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		707649A5A9AC1712F77A2027 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DepositBeverage/Pods-DepositBeverage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7634B072B52314545217F49D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DepositBeverageTests/Pods-DepositBeverageTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8034299127BABE0FC09FFDA8 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DepositBeverageTests/Pods-DepositBeverageTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5558AAB5C653D0E1EC48D0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B6BA5446E111D82A1969969D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DepositBeverage/Pods-DepositBeverage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4AE8BC8A33D424C94BFCF93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C8942CA920B724474DEB62DF /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E8667F0FA40659BF43FF78B5 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE41D1291D6AF0DE00011EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE41D1661D6AF2E900011EC5 /* apiRequest.swift in Sources */,
+				EE41D16C1D6AF2E900011EC5 /* RegisterVC.swift in Sources */,
+				EE41D1681D6AF2E900011EC5 /* HomeVC.swift in Sources */,
+				EE41D16B1D6AF2E900011EC5 /* ProfileVC.swift in Sources */,
+				EE41D16A1D6AF2E900011EC5 /* LoginVC.swift in Sources */,
+				EE41D1671D6AF2E900011EC5 /* EditProfileVC.swift in Sources */,
+				52130BB71D9683DA00442D58 /* inputDepositDataVC.swift in Sources */,
+				EEF91CA41D7D7ED600DE66E2 /* placeTableViewCell.swift in Sources */,
+				5218C9231D8FDBBC007C893A /* QRcodeController.swift in Sources */,
+				EE3B55B31D72D85200EA1860 /* utilityFuncs.swift in Sources */,
+				EE41D1311D6AF0DE00011EC5 /* AppDelegate.swift in Sources */,
+				EE41D1691D6AF2E900011EC5 /* InfoVC.swift in Sources */,
+				EE41D16D1D6AF2E900011EC5 /* splashScreenViewController.swift in Sources */,
+				EECDC4B81D8154D300DB567A /* DepositVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE41D13D1D6AF0DE00011EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE41D1461D6AF0DE00011EC5 /* DepositBeverageTests.swift in Sources */,
+				EEE95C021D9A3823004F7F38 /* DepositVCTests.swift in Sources */,
+				EE2E69001D9A767800EFBB84 /* WithdrawVCTests.swift in Sources */,
+				EE1B13051DA56BBF00DE988D /* utillityFunctionTest.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE41D1481D6AF0DE00011EC5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE41D1511D6AF0DE00011EC5 /* DepositBeverageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE41D1431D6AF0DE00011EC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE41D12C1D6AF0DE00011EC5 /* DepositBeverage */;
+			targetProxy = EE41D1421D6AF0DE00011EC5 /* PBXContainerItemProxy */;
+		};
+		EE41D14E1D6AF0DE00011EC5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE41D12C1D6AF0DE00011EC5 /* DepositBeverage */;
+			targetProxy = EE41D14D1D6AF0DE00011EC5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE41D1341D6AF0DE00011EC5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE41D1351D6AF0DE00011EC5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE41D1391D6AF0DE00011EC5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE41D13A1D6AF0DE00011EC5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE41D1531D6AF0DE00011EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE41D1541D6AF0DE00011EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE41D1561D6AF0DE00011EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D0ED9F833B2048B8147DDDF /* Pods-DepositBeverage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DepositBeverage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintmint.DepositBeverage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		EE41D1571D6AF0DE00011EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D53E221F6C374A9AC4C0F67 /* Pods-DepositBeverage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = DepositBeverage/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintmint.DepositBeverage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		EE41D1591D6AF0DE00011EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1902849160DD95AAE7C39DF /* Pods-DepositBeverageTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DepositBeverageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintmint.DepositBeverageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DepositBeverage.app/DepositBeverage";
+			};
+			name = Debug;
+		};
+		EE41D15A1D6AF0DE00011EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C0A3675DA07A4CB18DA01ED /* Pods-DepositBeverageTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DepositBeverageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintmint.DepositBeverageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DepositBeverage.app/DepositBeverage";
+			};
+			name = Release;
+		};
+		EE41D15C1D6AF0DE00011EC5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF3AC6E3DF19D246481F14C0 /* Pods-DepositBeverageUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = DepositBeverageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintmint.DepositBeverageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DepositBeverage;
+			};
+			name = Debug;
+		};
+		EE41D15D1D6AF0DE00011EC5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EDB57E2FE87D956326AFB19 /* Pods-DepositBeverageUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = DepositBeverageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mintmint.DepositBeverageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DepositBeverage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE41D1281D6AF0DE00011EC5 /* Build configuration list for PBXProject "DepositBeverage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE41D1531D6AF0DE00011EC5 /* Debug */,
+				EE41D1541D6AF0DE00011EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE41D1551D6AF0DE00011EC5 /* Build configuration list for PBXNativeTarget "DepositBeverage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE41D1561D6AF0DE00011EC5 /* Debug */,
+				EE41D1571D6AF0DE00011EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE41D1581D6AF0DE00011EC5 /* Build configuration list for PBXNativeTarget "DepositBeverageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE41D1591D6AF0DE00011EC5 /* Debug */,
+				EE41D15A1D6AF0DE00011EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE41D15B1D6AF0DE00011EC5 /* Build configuration list for PBXNativeTarget "DepositBeverageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE41D15C1D6AF0DE00011EC5 /* Debug */,
+				EE41D15D1D6AF0DE00011EC5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE41D1251D6AF0DE00011EC5 /* Project object */;
+}

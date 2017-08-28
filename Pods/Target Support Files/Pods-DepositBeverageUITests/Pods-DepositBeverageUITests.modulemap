@@ -1,0 +1,6 @@
+framework module Pods_DepositBeverageUITests {
+  umbrella header "Pods-DepositBeverageUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
